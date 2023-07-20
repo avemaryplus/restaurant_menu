@@ -1,0 +1,22 @@
+.error {
+	text-align: center;
+	padding: 100px;
+}
+
+body {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	background: url("./assets/background.jpeg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+h1 {
+	text-align: center;
+	padding: 30px;
+	color: azure;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 800px;
+}
