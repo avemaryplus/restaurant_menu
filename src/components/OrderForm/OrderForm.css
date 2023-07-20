@@ -1,0 +1,60 @@
+.controls {
+	display: flex;
+	gap: 20px;
+	justify-content: center
+}
+
+.ContactData {
+  margin: 20px auto;
+  width: 80%;
+  text-align: center;
+  box-shadow: 0 2px 3px #ccc;
+  border: 1px solid #eee;
+  padding: 10px;
+  box-sizing: border-box;
+	line-height: 2;
+}
+
+.Input {
+  outline: none;
+  border: 1px solid #ccc;
+  background-color: white;
+  font: inherit;
+  padding: 6px 10px;
+  margin: 10px auto;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.Input:focus {
+  outline: none;
+  background-color: #ccc;
+}
+
+.submit-btn, .close-btn {
+border-radius:10px;
+padding: 10px 30px;
+border:none;
+box-shadow:1px 1px 2px #000000
+}
+
+.submit-btn:hover{
+	background:rgb(7, 108, 4);
+	color:#fff;
+}
+
+.close-btn:hover{
+	background:rgb(230, 25, 2);
+	color:#eee
+}
+
+.submit-btn{
+	background:#5dbf44;
+}
+
+.close-btn{
+	background:rgb(204, 87, 74);
+}
+
+
