@@ -1,0 +1,38 @@
+.dish-card img {
+	width: 200px;
+	height: 130px;
+	object-fit: cover;
+}
+.dish-card {
+	background: #cccccc54;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	align-items: center;
+	justify-items: center;
+}
+
+.dish-card button {
+	height: min-content;
+	padding: 10px;
+	white-space: nowrap;
+}
+
+.dish-text {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	text-align: center;
+}
+
+.DishesList {
+	width: 60%;
+	background: #d3b16877;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	border-radius: 10px;
+}
