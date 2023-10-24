@@ -17,9 +17,9 @@ jobs:
 
     - name: Build and deploy
       run: |
-        npm run dev  
+        npm run build  
         mkdir public
-        cp -r src/* public 
+        cp -r dist/* public/ 
       env:
         CI: true
 
